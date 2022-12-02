@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url(//db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right, #734192, #9B309D); 
+}
+
+.navbar-nav a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    border-radius: 23px;
+}
+
+.ilmu {
+    background-image: url(../image/Vector1.png);
+    background-size: cover;
+    position: absolute;
+    width: 1263px;
+    height: 754px;
+    left: 0px;
+    top: -3px;
+}
+
+.vector2 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 0px;
+    top: 60px;
+    background: #C7199D;
+    opacity: 0.2;
+    transform: rotate(360deg);
+}
+
+.ilmu .row .col .btn {
+    background-color: #AE39FF;
+    color: white;
+}
+
+.ilmu .row .col .btn:hover {
+    background-color: #371B58;
+}
+
+.ilmu .row .col img {
+    position: absolute;
+    width: 775px;
+    height: 687px;
+    left: 378px;
+    top: -24px;
+    margin-top: 50px;
+}
+
+.ilmu .row .col .text {
+    position: relative;
+    margin-top: 269px;
+    font-family: 'Poppins', sans-serif;
+    color: white;    
+}
+
+.keunggulan {
+    padding: 975px 0px 100px
+}
+
+.keunggulan .text-left {
+    text-align: left;
+    color: #1C2661;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 0px 33px;
+}
+
+.keunggulan .text-left h6 {
+    color: #AE39FF;
+}
+
+.keunggulan .row .col-4 {
+    text-align: left;
+}
+
+.keunggulan .row .col-4 img {
+    margin-bottom: 30px;
+    width: 20%;
+
+}
+
+.tentang .card {
+    background-image: url(../image/Rectangle2.png);
+    background-size: cover;
+    border: none;
+    margin: 0px 0px 100px;
+}
+
+.tentang .row {
+    margin: 20px;
+}
+
+.tentang .row .col .cuate2 {
+    margin: auto;
+}
+
+.tentang .row .col .kuning {
+    position: absolute;
+    left: 0px;
+    top: 93px;
+}
+
+.tentang .row .col p {
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+.galeri {
+    background-color: #E9EFFFCC;
+    margin-top: 10em;
+}
+
+.galeri .row h1 {
+    color: #AE39FF;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.galeri .row h2 {
+    color: #19245F;
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+}
+
+.galeri .row a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+}
+
+.galeri .row a:hover {
+    color: #1C2661;
+}
+
+.galeri .row {
+    margin: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.galeri .row .col-3 {
+    width: 33%;
+}
+
+.galeri .row .col-3 img {
+    width: 100%;
+    margin-bottom: 36px;
+}
+
+.galeri .card-box img:hover {
+    transform: scale(1.1);
+}
+
+.galeri .card {
+    background: none;
+    border: none;
+}
+
+.galeri .row .col-3 .text h5{
+    color: #19245F;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+}
+
+.galeri .row .col-3 .text p{
+    color: #2E334E;
+    font-family: 'Poppins', sans-serif;
+}
+
+.galeri .row .col-auto .btn {
+    background-color: #F2B828;
+    border-radius: 10px;
+}
+
+.galeri .row .col-auto .btn:hover {
+    background-color: #a17a17;
+}
+
+.artikel {
+    margin: 150px 0px 0px;
+}
+
+.artikel .card {
+    border: none;
+}
+
+.artikel .text h6{
+    text-align: center;
+    color: #4FACF6;
+    font-family: "SF Pro Rounded";
+}
+
+.artikel .text h1{
+    text-align: center;
+    color: #1C2661;
+    font-family: "SF Pro Rounded";
+    font-weight: bolder;
+}
+
+.artikel .row .col img {
+    width: 100%;
+    margin: 0px 0px 30px;
+}
+
+.artikel .row .col h4, p {
+    font-family: 'Poppins', sans-serif;
+}
+
+.artikel .row .badge {
+    background-color: #AE39FF;
+    border-radius: 20px;
+    font-size: 20px;
+    position: relative;
+    top: -50px;
+    left: 73px;
+}
+
+.footer .row .mb-2 {
+    text-decoration: none;
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .ilmu {
+        width: 794px;
+        height: 471px;
+    }
+
+    .ilmu .vector2 img {
+        width: 354px;
+    }
+
+    .ilmu .row .col img {
+        /* width: 221px;
+        height: 200px; */
+        width: 221px;
+        height: 200px;
+        margin-top: 102px;
+        margin-left: -28px;
+    }
+
+    .ilmu .text {
+        margin-top: 96px;
+        text-align: left;
+    }
+
+    .ilmu .text h1 {
+        margin: 34px 239px 0px;
+        font-size: 1em;
+    }
+
+    .kontak .row {
+        margin-top: -71px;
+    }
+
+    .kontak .row div {
+        width: 500px;
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+        flex-direction: column;
+    }
+
+    .kontak .row .text {
+        text-align: center;
+        margin-top: 28px;
+    }
+}
+
+@media only screen and (min-width: 1590px) {
+    .ilmu{
+        background-image: url();
+    }
+
+    .ilmu .col img{
+        display: block;
+    }
+}
+
+
+

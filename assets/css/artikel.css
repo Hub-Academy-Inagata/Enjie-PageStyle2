@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url(//db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right, #734192, #9B309D); 
+}
+
+.navbar-nav a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    border-radius: 23px;
+}
+
+.ilmu {
+    background-image: url(../image/Vector1.png);
+    background-size: cover;
+    position: absolute;
+    width: 1263px;
+    height: 754px;
+    left: 0px;
+    top: -3px;
+}
+
+.vector2 {
+    position: absolute;
+    width: 0px;
+    height: 0px;
+    left: 0px;
+    top: 60px;
+    background: #C7199D;
+    opacity: 0.2;
+    transform: rotate(360deg);
+}
+
+.ilmu .row .col .btn {
+    background-color: #AE39FF;
+    color: white;
+}
+
+.ilmu .row .col .btn:hover {
+    background-color: #371B58;
+}
+
+.ilmu .row .col img {
+    position: absolute;
+    width: 701px;
+    height: 624px;
+    left: 438px;
+    top: 54px;
+    margin-top: 50px;
+}
+
+.ilmu .row .col .text {
+    position: relative;
+    margin-top: 269px; 
+}
+
+.ilmu .row .col .text h1 {
+    font-family: "SF Pro Rounded";
+    font-weight: bold;
+    color: white; 
+    text-align: left;  
+}
+
+.ilmu .row .col .text p {
+    font-family: 'Poppins', sans-serif;
+    color: white; 
+    text-align: left;  
+}
+
+.gotong {
+    margin: 900px 0px 150px;
+}
+
+.gotong .card {
+    border: none;
+}
+
+.gotong .card .card-body {
+    margin: 0px 60px 0px;
+}
+
+.gotong .card .row .col img {
+    width: 100%;
+    margin-left: -33px;
+}
+
+.gotong .row .badge {
+    background-color: #AE39FF;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 20px
+}
+
+.gotong .row .col h1 {
+    color: #1C2661;
+    font-family: 'Poppins', sans-serif;
+    font-size: 150%;
+    font-weight: bolder;
+}
+
+.gotong .row .col p {
+    color: #3A3B41;
+    text-align: justify;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gotong .row .col h5 {
+    color: #3A3B41;
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+
+.gotong .row .col a {
+    text-decoration: none;
+    color: #4FACF6;
+}
+
+.gotong .row .col a:hover {
+    color: #1C2661;
+}
+
+.galeri {
+    margin: -122px 0px 0px;
+}
+
+.galeri .card {
+    border: none;
+}
+
+.galeri .row .col-4 img{
+    width: 100%;
+    margin: 50px 0px 30px;
+}
+
+.galeri .row .col-4 a{
+    text-decoration: none;
+    color: #4FACF6;
+}
+
+.galeri .card-box img:hover {
+    transform: scale(1.1);
+}
