@@ -21,64 +21,48 @@
 }
 
 .ilmu {
-    background-image: url(../image/Vector1.png);
-    background-size: cover;
-    position: absolute;
-    width: 1263px;
-    height: 754px;
-    left: 0px;
-    top: -3px;
+    background-image: url(../image/Vector1.png), url(../image/Vector2.png);
+    background-repeat: no-repeat;
+    background-position: top center, left bottom;
+    background-size: 100%, 60%;
+    height: 850px;
 }
 
-.vector2 {
-    position: absolute;
-    width: 0px;
-    height: 0px;
-    left: 0px;
-    top: 60px;
-    background: #C7199D;
-    opacity: 0.2;
-    transform: rotate(360deg);
+.ilmu .img-fluid {
+    max-width: 50%;
+    height: auto;
+    margin-left: 50%;
+    margin-top: -20%;
 }
 
-.ilmu .row .col .btn {
+.ilmu .container {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.btn-ilmu {
     background-color: #AE39FF;
     color: white;
 }
 
-.ilmu .row .col .btn:hover {
-    background-color: #371B58;
+.ilmu .container .ilmu-text h1 {
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    line-height: 72px;
 }
 
-.ilmu .row .col img {
-    position: absolute;
-    width: 701px;
-    height: 624px;
-    left: 438px;
-    top: 54px;
-    margin-top: 50px;
-}
-
-.ilmu .row .col .text {
-    position: relative;
-    margin-top: 269px; 
-}
-
-.ilmu .row .col .text h1 {
-    font-family: "SF Pro Rounded";
-    font-weight: bold;
-    color: white; 
-    text-align: left;  
-}
-
-.ilmu .row .col .text p {
-    font-family: 'Poppins', sans-serif;
-    color: white; 
-    text-align: left;  
+.ilmu .container .ilmu-text p {
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
 }
 
 .gotong {
-    margin: 900px 0px 150px;
+    margin: 300px 0px 150px;
 }
 
 .gotong .card {
@@ -149,4 +133,90 @@
 
 .galeri .card-box img:hover {
     transform: scale(1.1);
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .ilmu {
+        background-repeat: no-repeat;
+        background-position: top center, left bottom;
+        background-size: 100%, 50%;
+        height: 391px;
+    }
+
+    .ilmu .img-fluid {
+        margin-top: -86px;
+        width: 40%;
+    }
+
+    .ilmu .container .ilmu-text h1 {
+        font-size: 2em;
+        margin-top: -69px;
+    }
+
+    .gotong {
+        margin-top: 0px;
+    }
+
+    .gotong .card {
+        margin: 0px 0px 578px;
+    }
+
+    .gotong .card-body .row div {
+        padding: 50px;
+        width: 500px;
+        height: 193px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .gotong .card .row .col img {
+        width: 100%;
+    }
+
+    .gotong .card .row .col h1, p {
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .galeri .card .row {
+        margin: -267px 0px 201px;
+    }
+
+    .galeri .card .row div { 
+        padding: 81px;
+        width: 500px;
+        height: 406px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .galeri .card .row .col-4 img {
+        width: 361px;
+    }
+
+    .galeri .card .row .col-4 {
+        margin: 0px 0px 100px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1590px) {
+    .ilmu{
+        background-image: url();
+    }
+
+    .ilmu .col img{
+        display: block;
+    }
 }
