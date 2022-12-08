@@ -21,63 +21,43 @@
 }
 
 .ilmu {
-    background-image: url(../image/Vector1.png);
-    background-size: cover;
-    position: absolute;
-    width: 1263px;
-    height: 754px;
-    left: 0px;
-    top: -3px;
+    background-image: url(../image/Vector1.png), url(../image/Vector2.png);
+    background-repeat: no-repeat;
+    background-position: top center, left bottom;
+    background-size: 100%, 60%;
+    height: 850px;
 }
 
-.vector2 {
-    position: absolute;
-    width: 0px;
-    height: 0px;
-    left: 0px;
-    top: 60px;
-    background: #C7199D;
-    opacity: 0.2;
-    transform: rotate(360deg);
+.ilmu .img-fluid {
+    max-width: 70%;
+    height: auto;
+    margin-left: 30%;
+    margin-top: -10%;
 }
 
-.ilmu .row .col .btn {
-    background-color: #AE39FF;
+.ilmu .container {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.ilmu .container .ilmu-text h1 {
+    font-weight: 700;
+    font-size: 48px;
     color: white;
+    line-height: 72px;
 }
 
-.ilmu .row .col .btn:hover {
-    background-color: #371B58;
-}
-
-.ilmu .row .col img {
-    position: absolute;
-    width: 779px;
-    height: 621px;
-    left: 378px;
-    top: 47px;
-    margin-top: 50px;
-}
-
-.ilmu .row .col .text {
-    position: relative;
-    margin-top: 269px; 
-}
-
-.ilmu .row .col .text h1 {
-    font-family: 'Poppins', sans-serif;
-    color: white; 
-    text-align: left;  
-}
-
-.ilmu .row .col .text p {
-    font-family: 'Poppins', sans-serif;
-    color: white; 
-    text-align: left;  
+.ilmu .container .ilmu-text p {
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
 }
 
 .profil {
-    margin-top: 952px;
+    margin-top: 90px;
 }
 
 .profil h5, p {
@@ -100,7 +80,7 @@
 }
 
 .keunggulan {
-    margin: 150px 0px 150px;
+    margin: -20px 0px 150px;
 }
 
 .keunggulan .text-center {
@@ -144,7 +124,7 @@
 .Guru {
     background-color: #E9EFFFCC;
     /* margin-top: 10em; */
-    margin: 0px 0px 145px;
+    margin: 0px 0px 32px;
 }
 
 .Guru .card {
@@ -259,4 +239,74 @@ button {
     position:absolute;
     right:-30px;
     top:0;
+}
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 767px){
+
+    .ilmu {
+        background-repeat: no-repeat;
+        background-position: top center, left bottom;
+        background-size: 100%, 50%;
+        height: 391px;
+    }
+
+    .ilmu .img-fluid {
+        margin-top: -90px;
+        margin-left: 196px;
+        width: 60%;
+    }
+
+    .ilmu .container .ilmu-text h1 {
+        font-size: 2em;
+        margin-top: -69px;
+    }
+
+    .profil {
+        margin-top: 6px;
+    }
+
+    .keunggulan {
+        margin-top: -36px;
+    }
+
+    .keunggulan .row .col-4 img {
+        width: 70px;
+    }
+
+    .keunggulan .row div {
+        padding: 10px;
+        width: 500px;
+        height: 339px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .keunggulan .row .col-4 p {
+        font-size: 14px;
+        margin: 11px 100px 0px 145px;
+    }
+
+    .keunggulan .row .col-4 h4 {
+        margin: 4px 144px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 1590px) {
+    .ilmu{
+        background-image: url();
+    }
+
+    .ilmu .col img{
+        display: block;
+    }
 }
