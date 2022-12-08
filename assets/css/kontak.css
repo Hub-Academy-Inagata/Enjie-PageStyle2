@@ -21,64 +21,48 @@
 }
 
 .ilmu {
-    background-image: url(../image/Vector1.png);
-    background-size: cover;
-    position: absolute;
-    width: 1263px;
-    height: 754px;
-    left: 0px;
-    top: -3px;
+    background-image: url(../image/Vector1.png), url(../image/Vector2.png);
+    background-repeat: no-repeat;
+    background-position: top center, left bottom;
+    background-size: 100%, 60%;
+    height: 850px;
 }
 
-.vector2 {
-    position: absolute;
-    width: 0px;
-    height: 0px;
-    left: 0px;
-    top: 60px;
-    background: #C7199D;
-    opacity: 0.2;
-    transform: rotate(360deg);
+.ilmu .img-fluid {
+    max-width: 50%;
+    height: auto;
+    margin-left: 50%;
+    margin-top: -20%;
 }
 
-.ilmu .row .col .btn {
-    background-color: #AE39FF;
+.ilmu .container {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    padding-top: 150px;
+}
+
+.ilmu .container .ilmu-text h1 {
+    font-weight: 700;
+    font-size: 48px;
     color: white;
+    line-height: 72px;
 }
 
-.ilmu .row .col .btn:hover {
-    background-color: #371B58;
+.ilmu .container .ilmu-text p {
+    font-weight: 300;
+    font-size: 16px;
+    color: white;
+    line-height: 30px;
 }
 
-.ilmu .row .col img {
-    position: absolute;
-    width: 596px;
-    height: 624px;
-    left: 537px;
-    top: 27px;
-    margin-top: 50px;
-}
-
-.ilmu .row .col .text {
-    position: relative;
-    margin-top: 269px; 
-}
-
-.ilmu .row .col .text h1 {
-    font-family: "SF Pro Rounded";
-    font-weight: bold;
-    color: white; 
-    text-align: left;  
-}
-
-.ilmu .row .col .text p {
-    font-family: 'Poppins', sans-serif;
-    color: white; 
-    text-align: left;  
-}
 
 .kontak {
-    margin: 958px 0px 100px;
+    margin: 286px 0px 100px;
+}
+
+.kontak .container {
+    margin-top: -150px;
 }
 
 .kontak .text-center {
@@ -119,13 +103,25 @@
 
 @media only screen and (max-width: 767px){
 
-    .ilmu .col img {
-        width: 50%;
+    .ilmu {
+        background-repeat: no-repeat;
+        background-position: top center, left bottom;
+        background-size: 100%, 50%;
+        height: 391px;
     }
 
-    .ilmu .text h1 {
-        margin: 34px 239px 0px;
-        font-size: 1em;
+    .ilmu .img-fluid {
+        margin-top: -138px;
+        width: 40%;
+    }
+
+    .ilmu .container .ilmu-text h1 {
+        font-size: 2em;
+        margin-top: -69px;
+    }
+
+    .kontak {
+        margin-top: 139px;
     }
 
     .kontak .row {
