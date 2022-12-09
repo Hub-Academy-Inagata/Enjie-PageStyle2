@@ -1,5 +1,14 @@
 {
   "dependencies": {
-    "bootstrap-icons": "^1.10.2"
-  }
+    "bootstrap": "^5.2.3"
+  },
+  "name": "slicing2",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }
