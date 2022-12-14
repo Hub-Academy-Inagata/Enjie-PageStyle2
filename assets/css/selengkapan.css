@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url(//db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background: linear-gradient(to right, #734192, #9B309D); 
+}
+
+.navbar-nav a {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+    border-radius: 23px;
+}
+
+.ilmu {
+    background-image: url(../image/Vector1.png);
+    background-size: cover;
+    position: absolute;
+    width: 1263px;
+    height: 754px;
+    left: 0px;
+    top: -3px;
+}
+
+.ilmu .image img {
+    width: 90%;
+    margin-top: 166px;
+    margin-left: 50px;
+    margin-bottom: 100px;
+}
+
+.artikel {
+    margin-top: 829px;
+}
+
+.artikel .badge {
+    background-color: #AE39FF;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 20px
+}
+
+.artikel .card {
+    margin-top: 100px;
+    border: none;
+}
+
+.artikel .card h1 {
+    color: #1C2661;
+    font-family: 'Poppins', sans-serif;
+}
+
+.artikel .card h5 {
+    font-size: medium;
+    font-family: 'Poppins', sans-serif;
+}
+
+.artikel .card p {
+    text-align: justify;
+    color: #3A3B41;
+    font-family: 'Poppins', sans-serif;
+}
+
+
