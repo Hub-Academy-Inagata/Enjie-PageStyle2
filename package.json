@@ -1,0 +1,22 @@
+{
+  "name": "slicing2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EndjieApta2001/Enjie-PageStyle2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EndjieApta2001/Enjie-PageStyle2/issues"
+  },
+  "homepage": "https://github.com/EndjieApta2001/Enjie-PageStyle2#readme"
+}
