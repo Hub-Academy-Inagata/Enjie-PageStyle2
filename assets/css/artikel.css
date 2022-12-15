@@ -161,10 +161,6 @@
         margin-top: -69px;
     }
 
-    .gotong {
-        margin-top: 0px;
-    }
-
     .gotong .card {
         margin: 0px 0px 578px;
     }
@@ -207,8 +203,6 @@
     .galeri .card .row .col-4 {
         margin: 0px 0px 100px;
     }
-
-    
 }
 
 @media only screen and (min-width: 1590px) {
