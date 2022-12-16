@@ -297,6 +297,10 @@
     .keunggulan {
         margin-top: -976px;
     }
+    
+    .keunggulan .keunggulan-text {
+    text-align: center;
+    }
 
     .keunggulan .row .col-4 img {
         width: 70px;
