@@ -341,24 +341,38 @@
         flex-direction: column;
     }
 
-    .artikel .row .col {
-        width: 492px;
-        height: 533px;
+    .artikel .card-body {
+        margin-top: -2px;
+        margin-bottom: -187px;
+    }
+
+    .artikel .container {
+        flex-direction: column;
         display: flex;
         align-items: center;
-        flex-direction: column;
+        width: 179px;
+        height: 1690px;
     }
 
     .artikel .row .col img {
-        width: 80%;
-        margin: 0px 0px 32px;
+        width: 180%;
+        margin: 0px -74px 26px;
+        display: block;
     }
 
     .artikel .row .badge {
-        font-size: 10px;
+        font-size: 20px;
         position: relative;
-        top: -40px;
+        top: -43px;
         left: 0px;
+    }
+
+    .artikel .row .col h4 {
+        margin: -25px -68px 46px;
+    }
+
+    .artikel .row .col p {
+        margin: -25px -68px 11px;
     }
 
 }
