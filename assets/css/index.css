@@ -301,6 +301,13 @@
     .keunggulan .keunggulan-text {
     text-align: center;
     }
+    
+    .keunggulan .keunggulan-text h1 {
+    color: #1C2661;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 15px 0px 33px;
+    }
 
     .keunggulan .row .col-4 img {
         width: 70px;
