@@ -20,7 +20,7 @@
     border-radius: 23px;
 }
 
-.ilmu {
+/* .ilmu {
     background-image: url(../image/Vector1.png);
     background-size: cover;
     position: absolute;
@@ -28,9 +28,17 @@
     height: 754px;
     left: 0px;
     top: -3px;
+} */
+
+.ilmu {
+    background-image: url(../image/Vector1.png), url(../image/Vector2.png);
+    background-repeat: no-repeat;
+    background-position: top center, left bottom;
+    background-size: 100%, 60%;
+    height: 764px;
 }
 
-.ilmu .image img {
+.ilmu .img-fluid {
     width: 90%;
     margin-top: 166px;
     margin-left: 50px;
@@ -38,35 +46,92 @@
 }
 
 .artikel {
-    margin-top: 829px;
+    margin-top: -40px;
 }
 
 .artikel .badge {
     background-color: #AE39FF;
     border-radius: 20px;
     font-size: 20px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+    font-weight: 400;
+    line-height: 30px;
 }
 
 .artikel .card {
     margin-top: 100px;
     border: none;
+    background: none;
 }
 
 .artikel .card h1 {
     color: #1C2661;
-    font-family: 'Poppins', sans-serif;
+    font-family: "SF Pro Rounded";
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66.83px;
+    letter-spacing: 3%;
 }
 
 .artikel .card h5 {
-    font-size: medium;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 27px;
     font-family: 'Poppins', sans-serif;
 }
 
 .artikel .card p {
     text-align: justify;
     color: #3A3B41;
+    font-size: 20px;
+    line-height: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding {
+        width: 100%;
+    }
+}
 
+@media only screen and (max-width: 767px){
+
+    .ilmu {
+        height: 372px;
+    }
+    
+
+    .ilmu .img-fluid {
+        margin: 128px 19px 0px;
+        width: 90%;
+    }
+
+    .artikel .card h1 {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 40px;
+    }
+
+    .artikel {
+        margin-top: -26px;
+    }
+
+    .artikel .card p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .artikel .badge {
+        font-size: 14px;
+    }
+
+}
+
+@media only screen and (min-width: 1590px) {
+    .ilmu{
+        display: block;
+    }
+}
