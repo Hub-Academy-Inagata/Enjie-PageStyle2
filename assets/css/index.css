@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Poppins:ital@1&display=swap');
 @import url(//db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded);
 
 * {
@@ -43,274 +42,79 @@
     padding-top: 150px;
 }
 
-.btn-ilmu {
-    background-color: #AE39FF;
-    color: white;
-    width: Hug (179px);
-    height: Hug (48px);
-    top: 256px;
-    gap: 10px;
-    padding: 12px, 24px, 12px, 24px;
-}
-
-.ilmu .btn:hover {
-    background-color: #4e2c63;
-}
-
 .ilmu .container .ilmu-text h1 {
     font-weight: 700;
     font-size: 48px;
     color: white;
     line-height: 72px;
-    font-family: 'Poppins', sans-serif;
+    font-family: "SF Pro Rounded";
 }
 
 .ilmu .container .ilmu-text p {
-    font-weight: 400;
-    font-size: 20px;
+    font-weight: 300;
+    font-size: 16px;
     color: white;
     line-height: 30px;
     font-family: 'Poppins', sans-serif;
 }
 
-.ilmu .container .ilmu-text a {
+
+.kontak {
+    margin: 286px 0px 100px;
+}
+
+.kontak .container {
+    margin-top: -150px;
+}
+
+.kontak .text-center {
+    margin: 40px 0px 80px;
+    font-family: 'Poppins', sans-serif;
+    color: #1C2661;
+}
+
+.kontak .text-center h6 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
     font-family: 'Poppins', sans-serif;
 }
 
-.ilmu .container .ilmu-text a:hover {
-    background-color: #5b3671;
-}
-
-.keunggulan {
-    margin-top: -802px;
-    padding: 975px 0px 100px
-}
-
-.keunggulan .container {
-    flex-direction: row;
-    align-items: center;
-    padding-top: 60px;
-}
-
-.keunggulan .keunggulan-text {
-    text-align: left;
-}
-
-.keunggulan .keunggulan-text h1{
-    color: #1C2661;
+.kontak .text-center h1 {
     font-weight: 700;
+    font-size: 56px;
+    line-height: 66.83px;
+    text-align: center;
+    letter-spacing: 3%;
     font-family: "SF Pro Rounded";
-    padding: 15px 0px 59px;
 }
 
-.keunggulan .keunggulan-text h5 {
-    color: #AE39FF;
-    font-family: 'Poppins', sans-serif;
+.kontak .row .col .text {
+    display: inline-grid;
 }
 
-
-.keunggulan .row .col-4 {
-    text-align: left;
+.kontak .row .col img {
+    width: 10%;
+    margin-top: 30px;
+    margin-right: 30px;
 }
 
-.keunggulan .row .col-4 h4{
-    font-family: 'Poppins', sans-serif;
-    color: #2E334E;
-}
-
-.keunggulan .row .col-4 p{
-    font-family: 'Poppins', sans-serif;
-    color: #A3A6A6;
-}
-
-.keunggulan .row .col-4 img {
-    margin-bottom: 30px;
-    width: 20%;
-
-}
-
-/* .tentang {
-    margin-top: -157px;
-} */
-
-.tentang .card {
-    /* background-image: url(../image/Rectangle2.png); */
-    background-size: cover;
-    border: none;
-    margin: -133px 0px 100px;
-}
-
-.tentang .row {
-    margin: 20px;
-}
-
-.tentang .row .col .cuate2 {
-    margin: auto;
-}
-
-.tentang .row .col .kuning {
-    position: absolute;
-    left: 0px;
-    top: 93px;
-}
-
-.tentang .row .tentang-text h1 {
-    color: #1C2661;
-    font-family: "SF Pro Rounded";
-    font-weight: 700;
-}
-
-.tentang .row .tentang-text p {
-    text-align: justify;
-    font-size: 1.2em;
-    color: #1C2661;
-    font-family: 'Poppins', sans-serif;
-}
-
-.tentang .row .btn-tentang {
+.kontak .row .col .btn {
     background-color: #AE39FF;
     color: white;
-    font-family: 'Poppins', sans-serif;
-    width: Hug (228px);
-    height: Hug (51px);
-    top: 331px;
-    padding: 12px, 24px, 12px, 24px;
-    gap: 10px;
-}
-
-.tentang .btn-tentang:hover {
-    background-color: #4e2c63;
-}
-
-.galeri {
-    background-color: #E9EFFFCC;
-    margin-top: 1117px;
-}
-
-.galeri .row h1 {
-    color: #AE39FF;
-    font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-}
-
-.galeri .row h2 {
-    color: #19245F;
-    font-family: "SF Pro Rounded";
-    font-size: 30px;
-    font-weight: 700;
-}
-
-.galeri .row .col-auto .btn {
-    margin-left: 82%;
-    margin-top: -5%;
-    color: #FFFFFF;
-    font-family: 'Poppins', sans-serif;
-}
-
-.galeri .row a {
-    text-decoration: none;
-    font-family: 'Poppins', sans-serif;
-}
-
-.galeri .row a:hover {
-    color: #1C2661;
-}
-
-.galeri .row {
-    margin: 30px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-}
-
-.galeri .row .col-3 {
-    width: 33%;
-}
-
-.galeri .row .col-3 img {
-    width: 100%;
-    margin-bottom: 36px;
-}
-
-.galeri .card-box img:hover {
-    transform: scale(1.1);
-}
-
-.galeri .card {
-    background: none;
-    border: none;
-}
-
-.galeri .row .col-3 .text h5{
-    color: #19245F;
-    font-family: 'Poppins', sans-serif;
-    font-weight: bolder;
-}
-
-.galeri .row .col-3 .text p{
-    color: #2E334E;
-    font-family: 'Poppins', sans-serif;
-}
-
-.galeri .row .col-auto .btn {
-    background-color: #F2B828;
-    border-radius: 10px;
-}
-
-.galeri .row .col-auto .btn:hover {
-    background-color: #a17a17;
-}
-
-.artikel {
-    margin: 170px 0px 0px;
-}
-
-.artikel .card {
-    border: none;
-}
-
-.artikel .text h6{
-    text-align: center;
-    color: #4FACF6;
-    font-family: "SF Pro Rounded";
-}
-
-.artikel .text h1{
-    text-align: center;
-    color: #1C2661;
-    font-family: "SF Pro Rounded";
-    font-weight: bolder;
-}
-
-.artikel .row .col img {
-    width: 100%;
-    margin: 0px 0px 30px;
-}
-
-.artikel .row .col h4 {
-    font-family: 'Poppins', sans-serif;
     line-height: 30px;
-    font-weight: 600;
-}
-
-.artikel .row .col p {
     font-family: 'Poppins', sans-serif;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: justify;
-}
-
-.artikel .row .badge {
-    background-color: #AE39FF;
-    border-radius: 20px;
     font-size: 20px;
-    position: relative;
-    top: -50px;
-    left: 73px;
+    font-weight: 500;
 }
 
-.footer .row .mb-2 {
-    text-decoration: none;
+.kontak .row .col .btn:hover {
+    background-color: #9B309D;
+}
+
+.bd-footer .mb-3 .row p {
+    padding-top: 20px;
 }
 
 /* media queries */
@@ -330,101 +134,50 @@
     }
 
     .ilmu .img-fluid {
-        margin-top: -249px;
-        width: 50%;
+        margin-top: -138px;
+        width: 40%;
     }
 
     .ilmu .container .ilmu-text h1 {
-        font-size: 1.3em;
-        line-height: 22px;
-        margin-top: -60px;
+        width: 100%;
+        font-size: 28px;
+        line-height: 24px;
     }
 
-    .keunggulan {
-        margin-top: -976px;
-    }
-
-    .keunggulan .row .col-4 img {
-        width: 70px;
-    }
-
-    .keunggulan .row div {
-        padding: 10px;
-        width: 500px;
-        height: 339px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .keunggulan .row .col-4 p {
+    .ilmu .container .ilmu-text p {
         font-size: 14px;
-        margin: 11px 100px 0px 145px;
+        line-height: 24px;
     }
 
-    .keunggulan .row .col-4 h4 {
-        margin: 4px 144px;
+    .kontak {
+        margin-top: 139px;
     }
 
-    .keunggulan .keunggulan-text {
+    .kontak .row {
+        margin-top: -71px;
+    }
+
+    .kontak .row div {
+        width: 400px;
+        display: flex;
+        align-items: center;
+        margin-top: 24px;
+        flex-direction: column;
+    }
+
+    .kontak .row .text {
         text-align: center;
+        margin-top: 28px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 36px;
     }
 
-    .galeri {
-        margin-top: 2277px;
+    .kontak .row .col img {
+        width: 20%;
+        margin-top: 30px;
+        margin-right: 0px;
     }
-
-    .galeri .card-body {
-        margin-top: -2px;
-        margin-bottom: 26px;
-    }
-    
-    .galeri .row .col-auto .btn {
-        margin-top: -113px;
-    }
-
-    .galeri .row .col-3 {
-        width: 492px;
-        height: 533px;
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .artikel .card-body {
-        margin-top: -2px;
-        margin-bottom: -187px;
-    }
-
-    .artikel .container {
-        flex-direction: column;
-        display: flex;
-        align-items: center;
-        width: 179px;
-        height: 1690px;
-    }
-
-    .artikel .row .col img {
-        width: 180%;
-        margin: 0px -74px 26px;
-        display: block;
-    }
-
-    .artikel .row .badge {
-        font-size: 20px;
-        position: relative;
-        top: -43px;
-        left: 0px;
-    }
-
-    .artikel .row .col h4 {
-        margin: -25px -68px 46px;
-    }
-
-    .artikel .row .col p {
-        margin: -25px -68px 11px;
-    }
-
 }
 
 @media only screen and (min-width: 1590px) {
