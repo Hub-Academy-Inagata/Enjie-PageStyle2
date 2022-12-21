@@ -52,6 +52,7 @@
     font-size: 48px;
     color: white;
     line-height: 72px;
+    font-family: "SF Pro Rounded";
 }
 
 .ilmu .container .ilmu-text p {
@@ -59,10 +60,12 @@
     font-size: 16px;
     color: white;
     line-height: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .gotong {
-    margin: -54px 0px 150px;
+    margin: 274px 0px 198px;
+    position: absolute;
 }
 
 .gotong .card {
@@ -81,6 +84,7 @@
 .gotong .row .badge {
     background-color: #AE39FF;
     border-radius: 20px;
+    font-weight: 400;
     font-size: 20px;
     margin-bottom: 20px
 }
@@ -96,6 +100,8 @@
     color: #3A3B41;
     text-align: justify;
     font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    font-weight: 400;
 }
 
 .gotong .row .col h5 {
@@ -114,11 +120,12 @@
 }
 
 .galeri {
-    margin: -122px 0px 0px;
+    margin: 842px 0px 0px;
 }
 
 .galeri .card {
     border: none;
+    background: none;
 }
 
 .galeri .row .col-4 img{
@@ -134,6 +141,23 @@
 .galeri .card-box img:hover {
     transform: scale(1.1);
 }
+
+.galeri .card-body .col-4 h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #1C2661;
+}
+
+.galeri .card-body .col-4 p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #3A3B41;
+}
+
 
 /* media queries */
 @media only screen and (min-width: 768px) and (max-width: 991px){
@@ -201,7 +225,7 @@
     }
 
     .galeri .card .row .col-4 {
-        margin: 0px 0px 100px;
+        margin: 0px 0px 142px;
     }
 }
 
