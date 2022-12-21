@@ -56,6 +56,7 @@
     font-size: 48px;
     color: white;
     line-height: 72px;
+    font-family: "SF Pro Rounded";
 }
 
 .ilmu .container .ilmu-text p {
@@ -63,6 +64,7 @@
     font-size: 16px;
     color: white;
     line-height: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .galeri {
@@ -77,27 +79,39 @@
     font-family: 'Poppins', sans-serif;
     color: #4FACF6;
     text-align: center;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
 }
 
 .galeri .card h1 {
     color: #1C2661;
     font-family: "SF Pro Rounded";
-    font-weight: bolder;
     text-align: center;
     margin-bottom: -90px;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 66.83px;
+    letter-spacing: 3%;
 }
 
 .galeri .text-left h1 {
     text-align: left;
     font-family: 'Poppins', sans-serif;
-    font-size: 1.4em;
+    font-size: 24px;
     color: #19245F;
+    font-weight: 600;
+    line-height: 36px;
 }
+
 
 .galeri .text-left p {
     text-align: left;
     font-family: 'Poppins', sans-serif;
     color: #2E334E;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
     margin-bottom: 30px;
     margin-top: 102px;
 }
@@ -121,6 +135,21 @@
     .section-padding {
         width: 100%;
     }
+
+    .ilmu .container .ilmu-text h1 {
+        font-size: 36px;
+        margin-top: -69px;
+        width: 100%;
+        line-height: 48px;
+    }
+
+    .ilmu .container .ilmu-text p {
+        font-weight: 300;
+        font-size: 14px;
+        color: white;
+        line-height: 24px;
+        font-family: 'Poppins', sans-serif;
+    }
 }
 
 @media only screen and (max-width: 767px){
@@ -139,8 +168,21 @@
     }
 
     .ilmu .container .ilmu-text h1 {
-        font-size: 2em;
+        font-size: 28px;
         margin-top: -69px;
+        width: 100%;
+    }
+
+    .ilmu .container .ilmu-text p {
+        font-weight: 300;
+        font-size: 14px;
+        color: white;
+        line-height: 24px;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    .btn-ilmu {
+        font-size: 14px;
     }
 
     .galeri {
@@ -165,11 +207,21 @@
     }
 
     .galeri .card .row .col-4 img {
-        width: 361px;
+        width: 300px;
     }
 
     .galeri .card .row .col-4 {
         margin: 0px 0px 100px;
+    }
+
+    .galeri .card h5 {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
+    .galeri .card h1 {
+        font-size: 28px;
+        line-height: 24px;
     }
 
     
@@ -184,4 +236,3 @@
         display: block;
     }
 }
-
