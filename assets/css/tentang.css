@@ -47,6 +47,7 @@
     font-size: 48px;
     color: white;
     line-height: 72px;
+    font-family: "SF Pro Rounded";
 }
 
 .ilmu .container .ilmu-text p {
@@ -54,6 +55,7 @@
     font-size: 16px;
     color: white;
     line-height: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .profil {
@@ -77,6 +79,7 @@
 .profil p {
     text-align: justify;
     color: #3A3B41;
+    font-family: 'Poppins', sans-serif;
 }
 
 .keunggulan {
@@ -113,6 +116,7 @@
     color: #A3A6A6;
     font-family: 'Poppins', sans-serif;
     text-align: left;
+    text-align: justify;
 }
 
 .keunggulan .row .col-4 img {
@@ -310,6 +314,8 @@ button {
     .Guru .card-body .row .col-3 img {
         width: 200px;
     }
+
+
     
 }
 
