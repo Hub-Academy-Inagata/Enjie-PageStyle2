@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Poppins:ital@1&display=swap');
 @import url(//db.onlinewebfonts.com/c/ead4092f880f75ff0883ced1856b2c37?family=SF+Pro+Rounded);
 
 * {
@@ -45,6 +46,11 @@
 .btn-ilmu {
     background-color: #AE39FF;
     color: white;
+    width: Hug (179px);
+    height: Hug (48px);
+    top: 256px;
+    gap: 10px;
+    padding: 12px, 24px, 12px, 24px;
 }
 
 .ilmu .btn:hover {
@@ -56,13 +62,19 @@
     font-size: 48px;
     color: white;
     line-height: 72px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .ilmu .container .ilmu-text p {
-    font-weight: 300;
-    font-size: 16px;
+    font-weight: 400;
+    font-size: 20px;
     color: white;
     line-height: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.ilmu .container .ilmu-text a {
+    font-family: 'Poppins', sans-serif;
 }
 
 .ilmu .container .ilmu-text a:hover {
@@ -77,16 +89,38 @@
 .keunggulan .container {
     flex-direction: row;
     align-items: center;
-    padding-top: 150px;
+    padding-top: 60px;
+}
+
+.keunggulan .keunggulan-text {
+    text-align: left;
+}
+
+.keunggulan .keunggulan-text h1{
+    color: #1C2661;
+    font-weight: 700;
+    font-family: "SF Pro Rounded";
+    padding: 15px 0px 59px;
 }
 
 .keunggulan .keunggulan-text h5 {
     color: #AE39FF;
+    font-family: 'Poppins', sans-serif;
 }
 
 
 .keunggulan .row .col-4 {
     text-align: left;
+}
+
+.keunggulan .row .col-4 h4{
+    font-family: 'Poppins', sans-serif;
+    color: #2E334E;
+}
+
+.keunggulan .row .col-4 p{
+    font-family: 'Poppins', sans-serif;
+    color: #A3A6A6;
 }
 
 .keunggulan .row .col-4 img {
@@ -122,21 +156,30 @@
 
 .tentang .row .tentang-text h1 {
     color: #1C2661;
+    font-family: "SF Pro Rounded";
+    font-weight: 700;
 }
 
 .tentang .row .tentang-text p {
     text-align: justify;
     font-size: 1.2em;
     color: #1C2661;
-}
-
-.tentang .btn:hover {
-    background-color: #4e2c63;
+    font-family: 'Poppins', sans-serif;
 }
 
 .tentang .row .btn-tentang {
     background-color: #AE39FF;
     color: white;
+    font-family: 'Poppins', sans-serif;
+    width: Hug (228px);
+    height: Hug (51px);
+    top: 331px;
+    padding: 12px, 24px, 12px, 24px;
+    gap: 10px;
+}
+
+.tentang .btn-tentang:hover {
+    background-color: #4e2c63;
 }
 
 .galeri {
@@ -152,19 +195,21 @@
 
 .galeri .row h2 {
     color: #19245F;
-    font-family: 'Poppins', sans-serif;
+    font-family: "SF Pro Rounded";
     font-size: 30px;
+    font-weight: 700;
 }
 
 .galeri .row .col-auto .btn {
     margin-left: 82%;
     margin-top: -5%;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
 }
 
 .galeri .row a {
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
-    color: #ffffff;
 }
 
 .galeri .row a:hover {
@@ -242,8 +287,17 @@
     margin: 0px 0px 30px;
 }
 
-.artikel .row .col h4, p {
+.artikel .row .col h4 {
     font-family: 'Poppins', sans-serif;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.artikel .row .col p {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: justify;
 }
 
 .artikel .row .badge {
@@ -289,17 +343,6 @@
     .keunggulan {
         margin-top: -976px;
     }
-    
-    .keunggulan .keunggulan-text {
-    text-align: center;
-    }
-    
-    .keunggulan .keunggulan-text h1 {
-    color: #1C2661;
-    font-weight: 500;
-    font-family: 'Poppins', sans-serif;
-    padding: 15px 50px 33px;
-    }
 
     .keunggulan .row .col-4 img {
         width: 70px;
@@ -321,6 +364,10 @@
 
     .keunggulan .row .col-4 h4 {
         margin: 4px 144px;
+    }
+
+    .keunggulan .keunggulan-text {
+        text-align: center;
     }
 
     .galeri {
