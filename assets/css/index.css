@@ -82,8 +82,12 @@
 }
 
 .keunggulan {
-    margin-top: -802px;
-    padding: 975px 0px 100px
+    margin-top: -801px;
+    padding: 975px 0px 215px;
+    background-image: url(../image/blob1.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100px;
 }
 
 .keunggulan .container {
@@ -130,10 +134,7 @@
 }
 
 .tentang {
-    background-image:url(../image/blob2.png);
-    background-repeat: no-repeat;
-    background-position: top bottom;
-    height: 850px;
+    margin-top: -104px;
 }
 
 .tentang .card {
@@ -188,7 +189,11 @@
 
 .galeri {
     background-color: #E9EFFFCC;
-    margin-top: 1117px;
+    background-image: url(../image/blob2.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    margin-top: 1200px;
+    margin-bottom: 0px;
 }
 
 .galeri .row h1 {
@@ -267,6 +272,11 @@
 
 .artikel {
     margin: 170px 0px 0px;
+    /* margin-top: -801px; */
+    background-image: url(../image/blob3.svg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    background-size: 100px;
 }
 
 .artikel .card {
