@@ -22,7 +22,7 @@
 }
 
 .ilmu {
-    background-image: url(../image/Vector1.png), url(../image/Vector2.png);
+    background-image: url(../image/Vector1.png), url(../image/Vector2.png), url(../image/);
     background-repeat: no-repeat;
     background-position: top center, left bottom;
     background-size: 100%, 60%;
@@ -129,15 +129,19 @@
 
 }
 
-/* .tentang {
-    margin-top: -157px;
-} */
+.tentang {
+    background-image:url(../image/blob2.png);
+    background-repeat: no-repeat;
+    background-position: top bottom;
+    height: 850px;
+}
 
 .tentang .card {
     /* background-image: url(../image/Rectangle2.png); */
     background-size: cover;
     border: none;
     margin: -133px 0px 100px;
+    background: none;
 }
 
 .tentang .row {
